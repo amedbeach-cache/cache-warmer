@@ -4,7 +4,7 @@ import { parseStringPromise } from "xml2js";
 import * as dotenv from "dotenv";
 
 dotenv.config();
-
+console.log("📦 Loaded Proxy:", process.env.BRD_PROXY_ID ?? "NOT DEFINED");
 const DOMAINS_MAP = {
   id: "https://amedbeach.com",
 };
